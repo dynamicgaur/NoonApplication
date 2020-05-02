@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NoonSuite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="Utility.Listener.RetryListenerClass"/>
+  </listeners>
+  <test name="Sample Try(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestFiles.LoginTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="loginLogo"/>
+          <include name="loginApplication"/>
+          <include name="initialise"/>
+          <include name="verifyForgotPassword"/>
+        </methods>
+      </class> <!-- TestFiles.LoginTest -->
+      <class name="TestFiles.HomeTest">
+        <methods>
+          <include name="search"/>
+          <include name="verifyHome"/>
+        </methods>
+      </class> <!-- TestFiles.HomeTest -->
+    </classes>
+  </test> <!-- Sample Try(failed) -->
+</suite> <!-- Failed suite [NoonSuite] -->
