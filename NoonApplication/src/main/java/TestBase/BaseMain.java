@@ -95,7 +95,7 @@ import static java.lang.System.getProperty;
 		        extent.setSystemInfo("browser", "chrome");*/
 
 
-		        extent= new ExtentReports (System.getProperty("user.dir") +"/test-output/WTFFile.html", true);
+		        extent= new ExtentReports (System.getProperty("user.dir") +"/test-output/readOutputFile.html", true);
 		        //extent.addSystemInfo("Environment","Environment Name")
 		        extent.addSystemInfo("Host Name", "SoftwareTestingMaterial");
 		        extent.addSystemInfo("Environment", "Automation Testing");
@@ -110,12 +110,12 @@ import static java.lang.System.getProperty;
 		        String browsername = prop.getProperty("browser");
 		        if (browsername.equalsIgnoreCase("chrome")) {
 		            System.out.println("Chrome browser initialised");
-		            System.setProperty("webdriver.chrome.driver", getProperty("user.dir") + "\\src\\drivers\\chromedriver.exe");
+		            System.setProperty("webdriver.chrome.driver", getProperty("user.dir") + "\\src\\main\\java\\drivers\\chromedriver.exe");
 		            driver = new ChromeDriver();
 
 		        } else if (browsername.equalsIgnoreCase("firefox")) {
 		            System.out.println("Firefox browser initialised");
-		            System.setProperty("webdriver.gecko.driver", getProperty("user.dir") + "\\src\\drivers\\geckodriver.exe");
+		            System.setProperty("webdriver.gecko.driver", getProperty("user.dir") + "\\src\\main\\java\\drivers\\geckodriver.exe");
 		            driver = new FirefoxDriver();
 		        }
 
