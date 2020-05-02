@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="0" total="5" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NoonSuite" duration-ms="202" started-at="2020-04-30T20:39:28Z" finished-at="2020-04-30T20:39:29Z">
+    <groups>
+    </groups>
+    <test name="Sample Try" duration-ms="202" started-at="2020-04-30T20:39:28Z" finished-at="2020-04-30T20:39:29Z">
+      <class name="TestFiles.LoginTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:TestFiles.LoginTest@5af97850]" name="setExtent" is-config="true" duration-ms="187" started-at="2020-05-01T02:09:28Z" finished-at="2020-05-01T02:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="FAIL" signature="initialise()[pri:0, instance:TestFiles.LoginTest@5af97850]" name="initialise" is-config="true" duration-ms="0" started-at="2020-05-01T02:09:28Z" finished-at="2020-05-01T02:09:28Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: C:\Users\Anuvrata\Downloads\UI_Automation\NoonApplication\NoonApplication\src\drivers\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Anuvrata\Downloads\UI_Automation\NoonApplication\NoonApplication\src\drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at TestBase.BaseMain.browserInitialise(BaseMain.java:114)
+	at TestFiles.LoginTest.initialise(LoginTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestFiles.LoginTest@5af97850]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-01T02:09:28Z" finished-at="2020-05-01T02:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="loginLogo()[pri:1, instance:TestFiles.LoginTest@5af97850]" name="loginLogo" duration-ms="0" started-at="2020-05-01T02:09:28Z" finished-at="2020-05-01T02:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogo -->
+        <test-method status="SKIP" signature="initialise()[pri:0, instance:TestFiles.LoginTest@5af97850]" name="initialise" is-config="true" duration-ms="0" started-at="2020-05-01T02:09:28Z" finished-at="2020-05-01T02:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="SKIP" signature="loginApplication()[pri:3, instance:TestFiles.LoginTest@5af97850]" name="loginApplication" duration-ms="15" started-at="2020-05-01T02:09:28Z" finished-at="2020-05-01T02:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestFiles.LoginTest@5af97850]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-01T02:09:28Z" finished-at="2020-05-01T02:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="verifyForgotPassword()[pri:2, instance:TestFiles.LoginTest@5af97850]" name="verifyForgotPassword" duration-ms="0" started-at="2020-05-01T02:09:28Z" finished-at="2020-05-01T02:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPassword -->
+        <test-method status="SKIP" signature="initialise()[pri:0, instance:TestFiles.LoginTest@5af97850]" name="initialise" is-config="true" duration-ms="0" started-at="2020-05-01T02:09:28Z" finished-at="2020-05-01T02:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestFiles.LoginTest@5af97850]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-01T02:09:28Z" finished-at="2020-05-01T02:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="endReport()[pri:0, instance:TestFiles.LoginTest@5af97850]" name="endReport" is-config="true" duration-ms="0" started-at="2020-05-01T02:09:29Z" finished-at="2020-05-01T02:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- TestFiles.LoginTest -->
+      <class name="TestFiles.HomeTest">
+        <test-method status="SKIP" signature="verifyHome()[pri:1, instance:TestFiles.HomeTest@5ef60048]" name="verifyHome" duration-ms="16" started-at="2020-05-01T02:09:29Z" finished-at="2020-05-01T02:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHome -->
+        <test-method status="SKIP" signature="initialise()[pri:0, instance:TestFiles.HomeTest@5ef60048]" name="initialise" is-config="true" duration-ms="0" started-at="2020-05-01T02:09:29Z" finished-at="2020-05-01T02:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestFiles.HomeTest@5ef60048]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-01T02:09:29Z" finished-at="2020-05-01T02:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="search()[pri:2, instance:TestFiles.HomeTest@5ef60048]" name="search" duration-ms="16" started-at="2020-05-01T02:09:29Z" finished-at="2020-05-01T02:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="SKIP" signature="initialise()[pri:0, instance:TestFiles.HomeTest@5ef60048]" name="initialise" is-config="true" duration-ms="0" started-at="2020-05-01T02:09:29Z" finished-at="2020-05-01T02:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestFiles.HomeTest@5ef60048]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-01T02:09:29Z" finished-at="2020-05-01T02:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- TestFiles.HomeTest -->
+    </test> <!-- Sample Try -->
+  </suite> <!-- NoonSuite -->
+</testng-results>
